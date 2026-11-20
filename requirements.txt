@@ -1,0 +1,10 @@
+# Unverified compatibility ranges; not a tested environment lock.
+# Python 3.11 recommended as a starting point.
+tensorflow>=2.16,<2.21
+numpy>=1.26,<2.3
+pandas>=2.1,<3
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.14
+jupyterlab>=4,<5
+# google.colab is provided by Colab; skip the import/mount lines locally.
